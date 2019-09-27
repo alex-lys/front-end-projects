@@ -1,0 +1,24 @@
+.feedback {
+    padding: 51px 0 65px 0;
+    &-slider {
+        margin: 31px auto 0 auto;
+        max-width: 601px;
+        &__img {
+            margin: 0 auto;
+            width: 114px;
+            height: 114px;
+        }
+        &__title {
+            margin-top: 19px;
+            font-size: 18px;
+            font-weight: 600;
+            text-align: center;
+        }
+        &__text {
+            margin-top: 5px;
+            font-size: 14px;
+            font-weight: 300;
+            text-align: justify;
+        }
+    }
+}

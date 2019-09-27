@@ -1,0 +1,22 @@
+.menu {
+    display: flex;
+    &__item {
+        padding: 0 10px 0 10px;
+        border-right: 1px dotted #cccccc;
+        a {
+            padding: 0 0 5px 0;
+            font-size: 15px;
+            font-weight: 400;
+            text-align: left;
+            color: #ffffff;
+            text-decoration: none;
+            &:hover {
+                color: $main-color;
+                border-bottom: 1px solid $main-color;
+            }
+        }
+        &:last-child {
+            border: none;
+        }
+    }
+}

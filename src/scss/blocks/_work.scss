@@ -1,0 +1,32 @@
+.work {
+    padding: 51px 0 20px 0;
+    background: #f3f3f3;
+    &-items {
+        margin-top: 29px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        &__item {
+            margin-bottom: 26px;
+            width: 257px;
+        }
+        &__icon {
+            height: 57px;
+            display: flex;
+            justify-content: center;
+        }
+        &__title {
+            margin-top: 10px;
+            font-size: 16px;
+            font-weight: 600;
+            text-align: center;
+            color: $main-color;
+        }
+        &__text {
+            margin-top: 5px;
+            padding: 0 5px;
+            font-size: 14px;
+            text-align: center;
+        }
+    }
+}

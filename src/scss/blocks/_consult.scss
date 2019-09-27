@@ -1,0 +1,29 @@
+.consult {
+    padding: 62px 0 79px 0;
+    background: url(../img/bg-form.png) center center/cover no-repeat;
+    &__wrapper {
+        margin: 0 auto;
+        max-width: 896px;
+    }
+    &__title {
+        padding: 20px;
+        height: 68px;
+        font-size: 19px;
+        font-weight: 600;
+        line-height: 1;
+        text-align: center;
+        text-transform: uppercase;
+        color: #ffffff;
+        background: $second-color;
+        span {
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 1;
+            color: #ffffff;
+        }
+    }
+    &__form {
+        height: 297px;
+        background-color: rgba($color: #ffffff, $alpha: 0.7);
+    }
+}
