@@ -1,8 +1,25 @@
 .feedback {
     padding: 51px 0 65px 0;
     &-slider {
+        position: relative;
         margin: 31px auto 0 auto;
         max-width: 601px;
+        &__left {
+            position: absolute;
+            height: 47px;
+            width: 15px;
+            top: 34px;
+            left: calc(50% - 96px);
+            cursor: pointer;
+        }
+        &__right {
+            position: absolute;
+            height: 47px;
+            width: 15px;
+            top: 34px;
+            right: calc(50% - 96px);
+            cursor: pointer;
+        }
         &__img {
             margin: 0 auto;
             width: 114px;
