@@ -282,13 +282,21 @@
             </div>
             <div class="prices-consult">
                 <div class="prices-consult__title">Заказать бесплатную консультацию</div>
-                <div class="prices-consult__icon"><img src="icons/icon-consult-1.svg" alt=""></div>
                 <form action="" class="prices-consult__form">
-                    <input type="text" placeholder="Ваше имя..." class="prices-consult__input">
-                    <input type="number" placeholder="Ваш телефон..." class="prices-consult__input">
-                    <input type="email" placeholder="Ваш e-mail..." class="prices-consult__input">
+                    <div class="prices-consult__icon">
+                        <div>
+                            <img src="icons/icon-consult-1.svg" alt="">
+                        </div>
+                    </div>
+                    <div>
+                        <input type="text" placeholder="Ваше имя..." class="prices-consult__input">
+                        <input type="number" placeholder="Ваш телефон..." class="prices-consult__input">
+                        <input type="email" placeholder="Ваш e-mail..." class="prices-consult__input">
+                    </div>
+                    <div class="prices-consult__button">
+                        <button class="button button_consult">Отправить заявку</button>
+                    </div>
                 </form>
-                <div class="button button_consult">Отправить заявку</div>
             </div>
         </div>
     </section>
@@ -407,10 +415,12 @@
                     <span>Напишите нам!</span>
                 </div>
                 <form action="" class="consult__form">
-                    <input type="text" class="consult__input">
-                    <input type="text" class="consult__input">
-                    <input type="text" class="consult__input">
-                    <input type="text" class="consult__input">
+                    <div>
+                        <input placeholder="Ваше имя..." type="text" class="consult__input">
+                        <input placeholder="Ваш телефон..." type="number" class="consult__input">
+                        <input placeholder="Ваш e-mail..." type="e-mail" class="consult__input">
+                        <input placeholder="Ваше сообщение" type="text" class="consult__input consult__input-textarea">
+                    </div>
                     <button class="button button_consult">Отправить заявку</button>
                 </form>
             </div>
@@ -418,8 +428,8 @@
     </section>
     <!-- Section Contacts -->
     <section class="contacts">
-        <div class="container">
-            <div class="contacts__map"></div>
+        <div class="contacts__map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2245.606371738623!2d37.625029316098754!3d55.74796799983205!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54af8f4b2bb81%3A0x45d8b81f41916c35!2z0KHQsNC00L7QstC90LjRh9C10YHQutCw0Y8g0YPQuy4sIDUsINCc0L7RgdC60LLQsCwgMTE1MDM1!5e0!3m2!1sru!2sru!4v1570102878227!5m2!1sru!2sru" width="100%" height="500" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
         </div>
     </section>
     <!-- Section Footer -->
@@ -440,9 +450,10 @@
                     </div>
                 </div>
             </div>
+            <div class="footer__divider"></div>
             <div class="footer__bottom">
                 <div class="footer__copyright">© 2010 global-opt.ru</div>
-                <div class="footer__policy">Политика конфидециальности</div>
+                <a href="#" class="footer__policy">Политика конфидециальности</a>
             </div>
         </div>
     </footer>
