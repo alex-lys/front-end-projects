@@ -26,6 +26,7 @@
     "not dead"
   ],
   "dependencies": {
-    "gulp-htmlmin": "^5.0.1"
+    "gulp-htmlmin": "^5.0.1",
+    "validate.js": "^0.13.1"
   }
 }

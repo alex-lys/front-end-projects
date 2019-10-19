@@ -26,7 +26,7 @@
                         <div class="phone__text">Есть вопросы?</div>
                         <div class="phone__number">+7 (926) 423 01 00</div>
                     </div>
-                    <button class="button">Перезвоните мне</button>
+                    <button class="button button_request">Перезвоните мне</button>
                 </div>
             </header>
             <div class="promo__uptitle">Global Opt - логистика полного цикла из Китая в Россию</div>
@@ -67,7 +67,7 @@
                     </div>
                 </div>
             </div>
-            <button class="button button_main">Получить расчет</button>
+            <button class="button button_main button_request">Получить расчет</button>
         </div>
     </section>
     <!-- Section Advantages -->
@@ -290,7 +290,7 @@
                     </div>
                     <div>
                         <input type="text" placeholder="Ваше имя..." class="prices-consult__input">
-                        <input type="number" placeholder="Ваш телефон..." class="prices-consult__input">
+                        <input placeholder="Ваш телефон..." class="prices-consult__input">
                         <input type="email" placeholder="Ваш e-mail..." class="prices-consult__input">
                     </div>
                     <div class="prices-consult__button">
@@ -389,23 +389,23 @@
                     <img src="icons/icon-slider-right.svg" alt="">
                 </a>
                 <div class="feedback-slider__item">
-                    <div class="feedback-slider__img"><img src="img/client-1.png" alt=""></div>
-                    <div class="feedback-slider__title">Анисимова Ольга</div>
-                    <div class="feedback-slider__text">
+                    <div class="feedback-slider__img fade"><img src="img/client-1.png" alt=""></div>
+                    <div class="feedback-slider__title fade">Птренко Кристина</div>
+                    <div class="feedback-slider__text fade">
                         Хочу рассказать о компании Global Opt. Самое главное что меня радует, это быстрый поиск и анализ определенного товара. Доставляла через компанию уже много раз, от расходных материалов для отеля, ло дольших партий детской одежды. Буду продолжать пользтваьбся услугами даной компании
                     </div>
                 </div>
                 <div class="feedback-slider__item">
-                    <div class="feedback-slider__img"><img src="img/client-1.png" alt=""></div>
-                    <div class="feedback-slider__title">Анисимова Ольга</div>
-                    <div class="feedback-slider__text">
+                    <div class="feedback-slider__img fade"><img src="img/client-1.png" alt=""></div>
+                    <div class="feedback-slider__title fade">Анисимова Ольга</div>
+                    <div class="feedback-slider__text fade">
                         Хочу рассказать о компании Global Opt. Самое главное что меня радует, это быстрый поиск и анализ определенного товара. Доставляла через компанию уже много раз, от расходных материалов для отеля, ло дольших партий детской одежды. Буду продолжать пользтваьбся услугами даной компании
                     </div>
                 </div>
                 <div class="feedback-slider__item">
-                    <div class="feedback-slider__img"><img src="img/client-1.png" alt=""></div>
-                    <div class="feedback-slider__title">Анисимова Ольга</div>
-                    <div class="feedback-slider__text">
+                    <div class="feedback-slider__img fade"><img src="img/client-1.png" alt=""></div>
+                    <div class="feedback-slider__title fade">Вальтер Екатерина</div>
+                    <div class="feedback-slider__text fade">
                         Хочу рассказать о компании Global Opt. Самое главное что меня радует, это быстрый поиск и анализ определенного товара. Доставляла через компанию уже много раз, от расходных материалов для отеля, ло дольших партий детской одежды. Буду продолжать пользтваьбся услугами даной компании
                     </div>
                 </div>
@@ -423,7 +423,7 @@
                 <form action="" class="consult__form">
                     <div>
                         <input placeholder="Ваше имя..." type="text" class="consult__input">
-                        <input placeholder="Ваш телефон..." type="number" class="consult__input">
+                        <input placeholder="Ваш телефон..." class="consult__input">
                         <input placeholder="Ваш e-mail..." type="e-mail" class="consult__input">
                         <input placeholder="Ваше сообщение" type="text" class="consult__input consult__input-textarea">
                     </div>
@@ -452,7 +452,7 @@
                             <div class="phone__text">Есть вопросы?</div>
                             <div class="phone__number">+7 (926) 423 01 00</div>
                         </div>
-                        <button class="button">Перезвоните мне</button>
+                        <button class="button button_request">Перезвоните мне</button>
                     </div>
                 </div>
             </div>
@@ -463,4 +463,18 @@
             </div>
         </div>
     </footer>
+    <div class="overlay fade">
+        <div class="modal">
+            <div class="modal__close">&times;</div>
+            <div class="modal__title">Просто заполните форму заявки</div>
+            <div class="modal__descr">и мы перезвоним вам в течении 10 минут</div>
+            <form class="modal__form" action="#">
+                <input name="name" placeholder="Ваше имя" type="text" class="modal__input">
+                <input name="phone" placeholder="Ваш телефон" class="modal__input">
+                <input name="email" placeholder="Ваш E-mail" type="email" class="modal__input">
+                <button class="button button_submit">Отправить заявку</button>
+            </form>
+        </div>
+    <!--Scripts-->
+    <script src="js/main.js"></script>
 </html>
