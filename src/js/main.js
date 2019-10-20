@@ -1,8 +1,23 @@
+ //Mobile menu
+let menuMobile = document.querySelector('.hamburger'),
+    menu = document.querySelector('.menu'),
+    menuClose = document.querySelector('.menu__close');
+
+const showMobileMenu = (element) => {
+    element.addEventListener('click', function() {
+        menu.classList.toggle('menu_active');
+    })
+}
+
+showMobileMenu(menuMobile);
+showMobileMenu(menuClose);
+    
+ 
  //Modals
 
- let buttonRequest = [...document.querySelectorAll('.button_request')],
- overlay = document.querySelector('.overlay'),
- close = document.querySelector('.modal__close');
+let buttonRequest = [...document.querySelectorAll('.button_request')],
+    overlay = document.querySelector('.overlay'),
+    close = document.querySelector('.modal__close');
  
 const requestModal = (element) => {
  element.addEventListener('click', function() {

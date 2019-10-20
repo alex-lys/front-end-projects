@@ -1,0 +1,25 @@
+@media (max-width: 991px) {
+    .header {
+        position: relative;
+        justify-content: space-between;
+        .logo {
+            display: none;
+        }
+        .hamburger {
+            display: block;
+            cursor: pointer;
+            &__line {
+                margin-top: 5px;
+                width: 40px;
+                height: 4px;
+                background: $main-color;
+            }
+        }
+    }
+}
+@media (max-width: 767px) {
+
+}
+@media (max-width: 575px) {
+
+}

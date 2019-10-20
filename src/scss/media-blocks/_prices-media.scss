@@ -1,0 +1,24 @@
+@media (max-width: 991px) {
+    .prices {
+        &-items {
+            margin: 0;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            &__item {
+                margin-top: 34px;
+                width: 320px;
+            }
+        }
+        &-consult {
+            &__form {
+                div {
+                    flex-direction: column;
+                    align-items: center;
+                }
+            }
+            &__input {
+                margin-top: 15px;
+            }
+        }
+    }
+}

@@ -1,0 +1,25 @@
+@media (max-width: 991px) {
+    .footer {
+        &__wrapper {
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+}
+@media (max-width: 575px) {
+    .footer {
+        &__left {
+            width: 300px;
+        }
+        &__title {
+            margin-left: 15px;
+        }
+        &__right {
+            margin-top: 15px;
+        }
+        &__bottom {
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+}

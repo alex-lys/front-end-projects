@@ -1,0 +1,10 @@
+@media (max-width: 575px) {
+    .phone {
+        flex-direction: column;
+        align-items: center;
+        width: 300px;
+        &__text {
+            text-align: center;
+        }
+    }
+}

@@ -1,0 +1,39 @@
+@media (max-width: 991px) {
+    .warranty {
+        &-items {
+            flex-direction: column;
+            align-items: center;
+            margin: 0;
+            &__item {
+                margin-top: 50px;
+                width: 540px;
+            }
+            &__img {
+                img {
+                    display: block;
+                    margin: 0 auto;
+                }
+            }
+        }
+    }
+}
+@media (max-width: 767px) {
+
+}
+@media (max-width: 575px) {
+    .warranty {
+        &-items {
+            &__item {
+                width: 300px;
+            }
+            &__img {
+                img {
+                    max-width: 300px;
+                }
+            }
+            &__text {
+                text-align: center;
+            }
+        }
+    }
+}

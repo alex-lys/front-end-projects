@@ -1,0 +1,37 @@
+@media (max-width: 991px) {
+    .menu {
+        position: absolute;
+        flex-direction: column;
+        padding: 50px;
+        width: 300px;
+        height: 100vh;
+        top: -25px;
+        left: -330px;
+        background: rgba(0, 0, 0, 0.8);
+        transition: 1.5s;
+        
+        &_active {
+            left: -30px;
+        }
+        &__item {
+            margin-top: 10px;
+            border: 0;
+        }
+        &__close {
+            position: absolute;
+            display: block;
+            top: 10px;
+            right: 10px;
+            width: 30px;
+            height: 30px;
+            color: #ffffff;
+            font-size: 45px;
+            line-height: 26px;
+            text-align: center;
+            cursor: pointer;
+        }
+    }
+}
+@media (max-width: 767px) {
+
+}
